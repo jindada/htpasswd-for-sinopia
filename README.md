@@ -11,7 +11,7 @@ Install and start.
 $ npm install htpasswd-for-sinopia -g
 
 # add user
-$ lucio new pkgname --install
+$ sinopia-adduser
 ```
 
 ## Contributing

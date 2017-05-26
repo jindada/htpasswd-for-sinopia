@@ -1,0 +1,20 @@
+{
+  "name": "htpasswd-for-sinopia",
+  "version": "0.1.0",
+  "description": "sinopia adduser htpasswd",
+  "main": "index.js",
+  "bin": {
+    "sinopia adduser": "./index"
+  },
+  "keywords": [
+    "sinopia",
+    "htpasswd",
+    "adduser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jindada/htpasswd-for-sinopia"
+  },
+  "author": "jzs0914@126.com",
+  "license": "ISC"
+}

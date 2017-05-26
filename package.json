@@ -4,7 +4,7 @@
   "description": "sinopia adduser htpasswd",
   "main": "index.js",
   "bin": {
-    "sinopia adduser": "./index"
+    "sinopia-adduser": "./index.js"
   },
   "keywords": [
     "sinopia",
@@ -16,5 +16,7 @@
     "url": "https://github.com/jindada/htpasswd-for-sinopia"
   },
   "author": "jzs0914@126.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
 }

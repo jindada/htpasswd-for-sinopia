@@ -5,7 +5,7 @@ var join = require('path').join;
 var readline = require('readline');
 var crypto = require('crypto');
 
-var htpasswdPath = join(__dirname, 'htpasswd');
+var htpasswdPath = join(process.cwd(), 'htpasswd');
 
 if (fs.existsSync(htpasswdPath)) {
   var htpasswd = fs.readFileSync(htpasswdPath, 'utf-8');

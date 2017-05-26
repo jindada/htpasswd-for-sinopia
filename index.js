@@ -23,6 +23,7 @@ if (fs.existsSync(htpasswdPath)) {
       var newline = username + ':' + password + ':' + comment + '\n';
       fs.writeFileSync(htpasswdPath, htpasswd + newline);
       rl.close();
+      process.exit(1);
     });
   });
 } else {
